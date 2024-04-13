@@ -16,48 +16,49 @@ export default function Home() {
 
           <PageTitle>
             <>
-              <span className='text-yellow-600'>Help us celebrate!</span>
+              <span className='text-orange-600'>Mark's turning 40!</span>
             </>
           </PageTitle>
         </div>
 
         <div 
-          className='border-8 border-[#312a2c] p-8 lg:min-w-[450px] lg:p-12 flex bg-contain bg-center flex-col gap-12 justify-items-stretch content-between justify-between items-stretch' 
-          style={{backgroundImage: 'url(/tiles.jpg)'}}
+          className='bg-blue-100 p-8 lg:min-w-[450px] lg:p-12 flex bg-contain bg-center flex-col gap-12 justify-items-stretch content-between justify-between items-stretch' 
+          
         >
           <div className='flex flex-col'> 
-            <SectionTitle>Dear family and friends,</SectionTitle>
+            <SectionTitle>Dear friends and fam,</SectionTitle>
 
             <Paragraph>
-              What a year! We&apos;ve started a family, welcomed little Ruby and moved into our home. We couldn&apos;t have done it without you.
+              Guess what? The big 4-0 is just around the corner, and I'm throwing a party to mark the occasion! It would be fantastic to have you join in on the fun.
+            </Paragraph>
+            
+            <Paragraph>
+              Come on over to <a href="https://www.welcometothornbury.com/">Welcome to Thornbury</a> for an afternoon of good vibes, laughter, and maybe a little bit of mischief. Your presence would make this celebration complete.
             </Paragraph>
 
             <Paragraph>
-              So please join us to celebrate (albeit belatedly) Ruby&apos;s first birthday party, and while we&apos;re at it, a house warming!
+              They'll be good food, drinks, and music. No presents, just your presence. They have an arcade of pinball and arcade machines, so it's like a TimeZone party but with alcohol and adults.
             </Paragraph>
           </div>
 
           <div className='flex flex-col'> 
             <SectionTitle>When & Where</SectionTitle>
 
-            <Paragraph>Sunday 19th November 2023, 12pm—4pm</Paragraph>
-            <Paragraph>116 Wungan Street, Macleod</Paragraph>
-            <Paragraph>There will be food and some drinks provided. No presents (unless pre-loved), your presence is plenty. </Paragraph>
-            <Paragraph>You can park on-street (even with the bike lane), in the nearby side-streets (we recommend Glenmore street) or the YMCA Macleod Recreation & Fitness Centre car-park.</Paragraph>
+            <Paragraph>Saturday 25th May 2024, 2pm—6pm</Paragraph>
+            <Paragraph><a href="https://www.welcometothornbury.com/">www.welcometothornbury.com</a></Paragraph>
+            <Paragraph>520 High Street, Northcote</Paragraph>
           </div>
-
-          <RSVP>Click here to RSVP</RSVP>
         </div>
       </main>
       <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.9053928850058!2d145.06664007583268!3d-37.72189847199872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6461f2e63ba67%3A0x3cdac865ad1720ee!2s116%20Wungan%20St%2C%20Macleod%20VIC%203085!5e0!3m2!1sen!2sau!4v1696294402401!5m2!1sen!2sau" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.0909940927245!2d144.99719277627398!3d-37.764464531222785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad64483fe6674f9%3A0x90868b18a1664653!2sWelcome%20to%20Thornbury!5e0!3m2!1sen!2sau!4v1713005079394!5m2!1sen!2sau" 
         className='w-full h-[450px]'
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
 
-      <Footer>❤️ Created by Ju-Lin, Mark, Remy and Ruby</Footer>
+      <Footer>❤️ Created by Mark, Ju-Lin, Remy and Ruby</Footer>
     </>
   )
 }

@@ -8,10 +8,8 @@ interface ParagraphProps {
 
 export const Paragraph = ({children, className}: ParagraphProps) => {
   return (
-    <p className={`pt-[5px] pb-[8px] leading-6 text-xl ${font.className}`}>
-      <strong className={`relative -left-5 z-10 ${className}`}>
-        {children}
-      </strong>
+    <p className={`py-4 leading-6 text-xl ${font.className}`}>
+      {children}
     </p>
   )
 }

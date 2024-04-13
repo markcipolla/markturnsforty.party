@@ -2,7 +2,6 @@ import Footer from './Footer'
 import PageTitle from './PageTitle'
 import Paragraph from './Paragraph'
 import SectionTitle from './SectionTitle';
-import RSVP from './RSVP';
 import VideoBackground from './VideoBackground';
 
 export default function Home() {
@@ -37,16 +36,19 @@ export default function Home() {
             </Paragraph>
 
             <Paragraph>
-              They'll be good food, drinks, and music. No presents, just your presence. They have an arcade of pinball and arcade machines, so it's like a TimeZone party but with alcohol and adults.
+              They'll be good food, drinks, and music. No presents, just your presence. They have an arcade of pinball and arcade machines, so it's like a TimeZone party, but with alcohol and adults.
             </Paragraph>
           </div>
 
           <div className='flex flex-col'> 
             <SectionTitle>When & Where</SectionTitle>
 
-            <Paragraph>Saturday 25th May 2024, 2pm—6pm</Paragraph>
-            <Paragraph><a href="https://www.welcometothornbury.com/">www.welcometothornbury.com</a></Paragraph>
-            <Paragraph>520 High Street, Northcote</Paragraph>
+            <Paragraph>
+              Saturday 25th May 2024, 2pm—6pm
+              <br />
+              <a href="https://www.welcometothornbury.com/">www.welcometothornbury.com</a><br />
+              520 High Street, Northcote
+            </Paragraph>
           </div>
         </div>
       </main>

@@ -58,6 +58,7 @@ export default function Home() {
             </Paragraph>
             <Paragraph>
               <Link href="https://www.welcometothornbury.com/">www.welcometothornbury.com</Link><br />
+              On the Deck, near the front<br />
               520 High Street, Northcote
             </Paragraph>
           </div>

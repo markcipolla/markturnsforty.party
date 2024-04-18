@@ -1,6 +1,7 @@
 import Footer from './Footer'
 import PageTitle from './PageTitle'
 import Paragraph from './Paragraph'
+import RSVP from './RSVP';
 import SectionTitle from './SectionTitle';
 import VideoBackground from './VideoBackground';
 
@@ -59,6 +60,8 @@ export default function Home() {
               520 High Street, Northcote
             </Paragraph>
           </div>
+
+          <RSVP>Click here to RSVP</RSVP>
         </div>
       </main>
       <iframe 

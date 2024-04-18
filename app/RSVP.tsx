@@ -1,5 +1,5 @@
-import { Enriqueta } from 'next/font/google';
-const font = Enriqueta({ weight: "400", subsets: ['latin'] });
+import { Inter } from 'next/font/google';
+const font = Inter({ weight: "400", subsets: ['latin'] });
 
 interface RSVPProps {
   children: React.ReactNode

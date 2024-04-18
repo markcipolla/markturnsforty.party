@@ -1,4 +1,5 @@
 import Footer from './Footer'
+import { Link } from './Link';
 import PageTitle from './PageTitle'
 import Paragraph from './Paragraph'
 import RSVP from './RSVP';
@@ -26,14 +27,14 @@ export default function Home() {
           
         >
           <div className='flex flex-col'> 
-            <SectionTitle>Dear friends and fam,</SectionTitle>
+            <SectionTitle>Dear friends & fam</SectionTitle>
 
             <Paragraph>
               Guess what? The big 4-0 is just around the corner, and I'm throwing a party to mark the occasion! It would be fantastic to have you join in on the fun.
             </Paragraph>
             
             <Paragraph>
-              Come on over to <a href="https://www.welcometothornbury.com/">Welcome to Thornbury</a> for an afternoon of good vibes, laughter, and maybe a little bit of mischief. Your presence would make this celebration complete.
+              Come on over to <Link href="https://www.welcometothornbury.com/">Welcome to Thornbury</Link> for an afternoon of good vibes, laughter, and maybe a little bit of mischief. Your presence would make this celebration complete.
             </Paragraph>
 
             <Paragraph>
@@ -55,13 +56,14 @@ export default function Home() {
             <Paragraph>
               Saturday 25th May 2024, 2pm—7pm
               <br />(and we can kick on after that if we're still standing / not in bed by then)
-              <br />
-              <a href="https://www.welcometothornbury.com/">www.welcometothornbury.com</a><br />
+            </Paragraph>
+            <Paragraph>
+              <Link href="https://www.welcometothornbury.com/">www.welcometothornbury.com</Link><br />
               520 High Street, Northcote
             </Paragraph>
           </div>
 
-          <RSVP>Click here to RSVP</RSVP>
+          <RSVP>Click here to RSVP by the 13th of May</RSVP>
         </div>
       </main>
       <iframe 

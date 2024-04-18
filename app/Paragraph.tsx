@@ -1,5 +1,5 @@
-import { DM_Serif_Display } from 'next/font/google';
-const font = DM_Serif_Display({ weight: "400", subsets: ['latin'] });
+import { Inter } from 'next/font/google';
+const font = Inter({ weight: "400", subsets: ['latin'] });
 
 interface ParagraphProps {
   children: React.ReactNode

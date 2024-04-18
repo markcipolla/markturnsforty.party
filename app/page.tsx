@@ -11,7 +11,7 @@ export default function Home() {
         <div
           className="flex min-h-device w-full overflow-hidden relative flex-col justify-end p-8 lg:p-12 bg-cover bg-center"
         >
-          <VideoBackground videoUrl='/ruby.mp4' />
+          <VideoBackground videoUrl='/young-to-old.mp4' />
 
           <PageTitle>
             <>
@@ -36,7 +36,15 @@ export default function Home() {
             </Paragraph>
 
             <Paragraph>
-              They'll be good food, drinks, and music. No presents, just your presence. They have an arcade of pinball and arcade machines, so it's like a TimeZone party, but with alcohol and adults.
+              There will be some food and drinks provided, and you can order extra from food trucks and a full menu available. No presents, just your presence. 
+            </Paragraph>
+            
+            <Paragraph>
+              They have an arcade of pinball and arcade machines, so it's like a TimeZone party, but with alcohol and adults.
+            </Paragraph>
+
+            <Paragraph>
+              Kids very much welcome!
             </Paragraph>
           </div>
 
@@ -44,7 +52,8 @@ export default function Home() {
             <SectionTitle>When & Where</SectionTitle>
 
             <Paragraph>
-              Saturday 25th May 2024, 2pm—6pm
+              Saturday 25th May 2024, 2pm—7pm
+              <br />(and we can kick on after that if we're still standing / not in bed by then)
               <br />
               <a href="https://www.welcometothornbury.com/">www.welcometothornbury.com</a><br />
               520 High Street, Northcote

@@ -1,5 +1,4 @@
-import { Inter } from 'next/font/google';
-const font = Inter({ weight: "400", subsets: ['latin'] });
+import { FontBody } from "./FontBody"
 
 interface ParagraphProps {
   children: React.ReactNode
@@ -8,7 +7,7 @@ interface ParagraphProps {
 
 export const Paragraph = ({children, className}: ParagraphProps) => {
   return (
-    <p className={`py-4 leading-6 text-xl ${font.className}`}>
+    <p className={`py-4 leading-6 text-xl ${FontBody.className}`}>
       {children}
     </p>
   )

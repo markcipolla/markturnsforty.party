@@ -1,5 +1,4 @@
-import { DM_Serif_Display } from 'next/font/google';
-const font = DM_Serif_Display({ weight: "400", subsets: ['latin'] });
+import { FontHead } from "./FontHead"
 
 interface FooterProps {
   children: React.ReactNode
@@ -7,7 +6,7 @@ interface FooterProps {
 
 export const Footer = ({children}: FooterProps) => {
   return (
-    <h2 className={`p-4 text-teal-800 text-2xl text-center ${font.className}`}>
+    <h2 className={`p-4 text-teal-800 text-1xl text-center break-keep ${FontHead.className}`}>
       {children}
     </h2>
 

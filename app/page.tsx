@@ -23,8 +23,7 @@ export default function Home() {
         </div>
 
         <div 
-          className='bg-blue-100 p-8 lg:min-w-[450px] lg:p-12 flex bg-contain bg-center flex-col gap-12 justify-items-stretch content-between justify-between items-stretch' 
-          
+          className='bg-blue-100 p-8 lg:min-w-[400px] lg:p-12 flex bg-contain bg-center flex-col gap-12 justify-items-stretch content-between justify-between items-stretch' 
         >
           <div className='flex flex-col'> 
             <SectionTitle>Dear friends & fam</SectionTitle>
@@ -63,7 +62,7 @@ export default function Home() {
             </Paragraph>
           </div>
 
-          <RSVP>Click here to RSVP by the 13th of May</RSVP>
+          <RSVP>Click here to RSVP <br />by the 13th of May</RSVP>
         </div>
       </main>
       <iframe 

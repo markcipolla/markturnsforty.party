@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <main className='min-h-device flex flex-col lg:flex-row '>
         <div
-          className="flex min-h-device w-full overflow-hidden relative flex-col justify-end p-8 lg:p-12 bg-cover bg-center"
+          className="flex min-h-device w-full overflow-hidden relative flex-col justify-start p-6 lg:p-10 bg-cover bg-center"
         >
           <VideoBackground videoUrl='/young-to-old.mp4' />
 
